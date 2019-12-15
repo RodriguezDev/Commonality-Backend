@@ -1,0 +1,19 @@
+serviceConfig:
+  scheme: http://
+  hostName: 0.0.0.0
+  port: 3313
+  path: /api/basicService
+
+loggerConfig:
+  outputDir: ./logs/
+  outputFile: basicService.log
+
+databaseConfig:
+  dbUsername: root
+  dbPassword: 11301997
+  dbHostname: 127.0.0.1
+  dbPort: 3306
+  dbDriver: com.mysql.cj.jdbc.Driver
+  dbName: Twitter
+  dbSettings: ?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST
+

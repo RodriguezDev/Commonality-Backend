@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.uci.ics.chrisr6.service.basic.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-04-15T06:56:32" hostname="dhcp-v023-182.mobile.uci.edu" time="0.0">
+  <properties/>
+  <testcase name="firstTest" classname="edu.uci.ics.chrisr6.service.basic.AppTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Documents/UCI/UCI Spring 2019/cs122b/edu.uci.ics.chrisr6.simple_server" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/UCI/UCI Spring 2019/cs122b/hw1/edu.uci.ics.chrisr6.service.basic" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/UCI/UCI Spring 2019/cs122b/hw1/edu.uci.ics.chrisr6.service.basic/hw1" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/UCI/UCI Spring 2019/cs122b/hw2/hw2-service-idm-RodriguezDev" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/UCI/UCI Spring 2019/cs122b/hw3/hw3-service-movies-RodriguezDev" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/UCI/UCI Spring 2019/cs122b/hw3r/hw3-service-movies-revised-RodriguezDev" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/UCI/UCI Spring 2019/cs122b/hw4/hw4-service-billing-RodriguezDev" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/UCI/UCI Spring 2019/cs122b/hw6/hw6-service-api-gateway-RodriguezDev" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/UCI/UCI Spring 2019/cs122b/hw7/hw7-frontend-RodriguezDev" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/UCI/UCI Spring 2019/cs122b/learning_activities/wk2-activity1-models_logs_configs" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/UCI/UCI Spring 2019/cs122b/learning_activities/wk3-activity1-sessions_tokens_hashing-master" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/UCI/UCI Spring 2019/cs122b/learning_activities/wk4-activity1-querystring" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/UCI/UCI Spring 2019/cs122b/test_project" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/wk1-activity2-hello-world-rest-call-RodriguezDev-master" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/wk2-activity2-jdbc-master" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/wk4-activity1-querystring-master" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/wk7-activity1-request_validation-master" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+</project>

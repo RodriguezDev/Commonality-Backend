@@ -1,0 +1,22 @@
+[2019/12/15 15:37:47][CONFIG][initLogger]  Logging initialized.
+[2019/12/15 15:37:47][CONFIG][initService]  Starting service...
+[2019/12/15 15:37:47][CONFIG][currentConfigs]  Scheme: http://
+[2019/12/15 15:37:47][CONFIG][currentConfigs]  Hostname: 0.0.0.0
+[2019/12/15 15:37:47][CONFIG][currentConfigs]  Port: 3313
+[2019/12/15 15:37:47][CONFIG][currentConfigs]  Path: /api/basicService
+[2019/12/15 15:37:47][CONFIG][currentConfigs]  Logger output directory: ./logs/
+[2019/12/15 15:37:47][CONFIG][currentConfigs]  Logger output file: basicService.log
+[2019/12/15 15:37:47][CONFIG][currentConfigs]  dbUsername: root
+[2019/12/15 15:37:47][CONFIG][currentConfigs]  dbPassword: 11301997
+[2019/12/15 15:37:47][CONFIG][currentConfigs]  dbHostname: 127.0.0.1
+[2019/12/15 15:37:47][CONFIG][currentConfigs]  dbPort: 3306
+[2019/12/15 15:37:47][CONFIG][currentConfigs]  dbDriver: com.mysql.cj.jdbc.Driver
+[2019/12/15 15:37:47][CONFIG][currentConfigs]  dbName: Twitter
+[2019/12/15 15:37:47][CONFIG][currentConfigs]  dbSettings: ?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST
+[2019/12/15 15:37:47][CONFIG][connectToDatabase]  Connecting to database...
+[2019/12/15 15:37:47][CONFIG][connectToDatabase]  Database URL: jdbc:mysql://127.0.0.1:3306/Twitter?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST
+[2019/12/15 15:37:47][CONFIG][connectToDatabase]  Connected to database: com.mysql.cj.jdbc.ConnectionImpl@5b7a5baa
+[2019/12/15 15:37:47][CONFIG][initHTTPServer]  Initializing HTTP server...
+[2019/12/15 15:37:48][CONFIG][initHTTPServer]  HTTP server started.
+[2019/12/15 15:37:48][CONFIG][initService]  Service initialized.
+[2019/12/15 15:37:56][INFO][helloWorld]  Hello world!
