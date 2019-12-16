@@ -12,6 +12,7 @@ import org.apache.commons.codec.binary.Hex;
 
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
+import javax.xml.crypto.Data;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -110,6 +111,9 @@ public class Users {
             // Check if the two are equal.
             if (dbPass.equals(hashedPassEntered)) {
                 // The login was successful. Return a token.
+                // But first invalidate any other log ins.
+                DatabaseOperations.invalidateSessions(requestModel.getEmail(), null);
+
                 String token = DatabaseOperations.createSession(requestModel.getEmail());
                 return Response.status(Status.OK).entity(new SessionResponseModel(120, token)).build();
             }
@@ -120,5 +124,89 @@ public class Users {
             e.printStackTrace();
             return Response.status(Status.INTERNAL_SERVER_ERROR).build();
         }
+    }
+
+    /**
+     * Updates the handle for a given user. Must be unique.
+     * @param requestModel: a string, with the requested handle.
+     * @return response
+     */
+    public static Response setHandle(SingleStringRequestModel requestModel, String email) {
+
+        Connection connection = App.getCon();
+
+        if (requestModel.getField().length() == 0 || requestModel.getField().length() > 50) {
+            return Response.status(Status.BAD_REQUEST).entity(new GeneralResponseModel(-107)).build();
+        }
+
+        try {
+            String query = "SELECT COUNT(*) as c FROM users WHERE handle = ?";
+            PreparedStatement statement = connection.prepareStatement(query);
+            statement.setString(1, requestModel.getField());
+
+            ResultSet rs = statement.executeQuery();
+            rs.next();
+
+            if (rs.getInt("c") != 0) {
+                // The handle is taken.
+                return Response.status(Status.BAD_REQUEST).entity(new GeneralResponseModel(-108)).build();
+            }
+
+            // Otherwise, give the user the handle.
+            String query2 = "UPDATE users SET handle = ? WHERE email = ?";
+            PreparedStatement statement2 = connection.prepareStatement(query2);
+            statement2.setString(1, requestModel.getField());
+            statement2.setString(2, email);
+
+            statement2.execute();
+
+            return Response.status(Status.OK).entity(new GeneralResponseModel(150)).build();
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return Response.status(Status.INTERNAL_SERVER_ERROR).build();
+        }
+    }
+
+    /**
+     * Updates the name for a given user. Must be unique.
+     * @param requestModel: a string, with the requested handle.
+     * @return response
+     */
+    public static Response setName(SingleStringRequestModel requestModel, String email) {
+
+        Connection connection = App.getCon();
+
+        if (requestModel.getField().length() == 0 || requestModel.getField().length() > 50) {
+            return Response.status(Status.BAD_REQUEST).entity(new GeneralResponseModel(-109)).build();
+        }
+
+        try {
+            // Update the user's name.
+            String query2 = "UPDATE users SET name = ? WHERE email = ?";
+            PreparedStatement statement2 = connection.prepareStatement(query2);
+            statement2.setString(1, requestModel.getField());
+            statement2.setString(2, email);
+
+            statement2.execute();
+
+            return Response.status(Status.OK).entity(new GeneralResponseModel(160)).build();
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return Response.status(Status.INTERNAL_SERVER_ERROR).build();
+        }
+    }
+
+    /**
+     * Logs out a given token + email combo, and that row only.
+     * @param email: email
+     * @param sessionID: sessionID
+     * @return response
+     */
+    public static Response logout(String email, String sessionID) {
+        DatabaseOperations.invalidateSessions(email, sessionID);
+
+        return Response.status(Status.OK).entity(new GeneralResponseModel(170)).build();
     }
 }

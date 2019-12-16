@@ -15,8 +15,17 @@ public class GeneralResponseModel {
     public GeneralResponseModel(int resultCode) {
         this.resultCode = resultCode;
         switch (resultCode) {
+            case -109:
+                this.message = "Name length is invalid.";
+                break;
+            case -108:
+                this.message = "Handle is taken.";
+                break;
+            case -107:
+                this.message = "Handle length is invalid.";
+                break;
             case -106:
-                this.message = "Password is incorrect";
+                this.message = "Password is incorrect.";
                 break;
             case -105:
                 this.message = "No account exists with email.";
@@ -68,6 +77,15 @@ public class GeneralResponseModel {
                 break;
             case 141:
                 this.message = "User has insufficient privilege level.";
+                break;
+            case 150:
+                this.message = "User handle updated successfully.";
+                break;
+            case 160:
+                this.message = "User name updated successfully.";
+                break;
+            case 170:
+                this.message = "User logged out successfully.";
                 break;
         }
     }

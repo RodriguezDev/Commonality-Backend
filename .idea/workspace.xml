@@ -2,32 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43875032-0027-4bbb-a004-3b833eabdabf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/core/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/GeneralResponseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/SessionResponseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/Users/CredentialRequestModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/UsersPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities/CredentialValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities/DatabaseOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities/Enums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities/security/Crypto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities/security/Session.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities/security/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/SingleStringRequestModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/uci/ics/chrisr6/service/basic/Core/DatabaseOperations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/uci/ics/chrisr6/service/basic/Core/ValidateString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/uci/ics/chrisr6/service/basic/Core/ValidateStringCore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/uci/ics/chrisr6/service/basic/models/GetAllResponseModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/uci/ics/chrisr6/service/basic/models/GetIdResponseModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/uci/ics/chrisr6/service/basic/models/Record.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/uci/ics/chrisr6/service/basic/models/ValidateStringRequestModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/uci/ics/chrisr6/service/basic/models/ValidateStringResponseModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/uci/ics/chrisr6/service/basic/resources/GetPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/uci/ics/chrisr6/service/basic/resources/ValidateStringPage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/distributions/edu.uci.ics.chrisr6.service.basic-shadow.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/edu.uci.ics.chrisr6.service.basic-shadow.tar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/distributions/edu.uci.ics.chrisr6.service.basic-shadow.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/edu.uci.ics.chrisr6.service.basic-shadow.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/distributions/edu.uci.ics.chrisr6.service.basic.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/edu.uci.ics.chrisr6.service.basic.tar" afterDir="false" />
@@ -38,16 +16,11 @@
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/edu.uci.ics.chrisr6.service.basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/edu.uci.ics.chrisr6.service.basic.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-edu.uci.ics.chrisr6.service.basic.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-edu.uci.ics.chrisr6.service.basic.AppTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/basicService.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/basicService.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/core/DatabaseOperations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/core/ValidateString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/GetAllResponseModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/GetIdResponseModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/ValidateStringRequestModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/ValidateStringResponseModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/GetPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/ValidateStringPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/core/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/core/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/GeneralResponseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/GeneralResponseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/UsersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/UsersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities/DatabaseOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities/DatabaseOperations.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -69,11 +42,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/GeneralResponseModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+            <state relative-caret-position="150">
+              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -81,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/UsersPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+            <state relative-caret-position="475">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,23 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/core/Users.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="102" column="50" selection-start-line="102" selection-start-column="50" selection-end-line="102" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities/security/Token.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="477">
+              <caret line="205" column="77" selection-start-line="205" selection-start-column="77" selection-end-line="205" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities/DatabaseOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="46" column="108" selection-start-line="46" selection-start-column="108" selection-end-line="46" selection-end-column="108" />
+            <state relative-caret-position="415">
+              <caret line="90" column="25" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,15 +88,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/SessionResponseModel.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/Users/CredentialRequestModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="180">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -162,14 +118,16 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/HelloPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities/Enums.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/UsersPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities/CredentialValidation.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities/security/Token.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities/security/Session.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/SessionResponseModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/core/Users.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/SingleFieldRequestModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/SingleStringRequestModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities/DatabaseOperations.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/GeneralResponseModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/UsersPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/core/Users.java" />
       </list>
     </option>
   </component>
@@ -234,26 +192,8 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edu.uci.ics.chrisr6.service.basic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edu.uci.ics.chrisr6.service.basic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="Users" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -281,6 +221,7 @@
       <recent name="edu.uci.ics.chrisr6.service.basic.utilities.security" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities" />
     </key>
   </component>
@@ -306,12 +247,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576453035683</updated>
-      <workItem from="1576453037091" duration="11896000" />
+      <workItem from="1576453037091" duration="16568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11896000" />
+    <option name="totallyTimeSpent" value="16568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -413,13 +354,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/Users/CredentialRequestModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/core/DatabaseOperations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -455,16 +389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities/security/Token.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities/Enums.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -486,19 +410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/SessionResponseModel.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/UsersPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/GetPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1035">
@@ -509,20 +420,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/core/Users.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-server/2.28/292e93ba8f847121f2e5e3db839baf25e95941ee/jersey-server-2.28-sources.jar!/org/glassfish/jersey/server/ApplicationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="102" column="50" selection-start-line="102" selection-start-column="50" selection-end-line="102" selection-end-column="50" />
+        <state relative-caret-position="405">
+          <caret line="693" column="6" lean-forward="true" selection-start-line="693" selection-start-column="6" selection-end-line="693" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/SessionResponseModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="106" selection-start-line="5" selection-start-column="106" selection-end-line="5" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities/security/Token.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/Users/CredentialRequestModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/SingleStringRequestModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+          <folding>
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities/DatabaseOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="46" column="108" selection-start-line="46" selection-start-column="108" selection-end-line="46" selection-end-column="108" />
+        <state relative-caret-position="415">
+          <caret line="90" column="25" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -531,8 +479,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/GeneralResponseModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+        <state relative-caret-position="150">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/UsersPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/core/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="205" column="77" selection-start-line="205" selection-start-column="77" selection-end-line="205" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

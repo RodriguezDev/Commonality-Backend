@@ -61,4 +61,37 @@ public class DatabaseOperations {
             return null;
         }
     }
+
+    /**
+     * Invalidates sessions. Will invalidate all for an email if no sessionID is provided.
+     * @param email: mandatory
+     * @param sessionID: optional
+     */
+    public static void invalidateSessions(String email, String sessionID) {
+
+        try {
+            Connection connection = App.getCon();
+
+            String query;
+            PreparedStatement ps;
+
+            if (sessionID != null) {
+                query = "UPDATE sessions SET status = ? WHERE email = ? AND sessionID = ?";
+                ps = connection.prepareStatement(query);
+                ps.setInt(1, Session.CLOSED);
+                ps.setString(2, email);
+                ps.setString(3, sessionID);
+            } else {
+                query = "UPDATE sessions SET status = ? WHERE email = ?";
+                ps = connection.prepareStatement(query);
+                ps.setInt(1, Session.CLOSED);
+                ps.setString(2, email);
+            }
+
+            ps.execute();
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 }
