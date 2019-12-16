@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43875032-0027-4bbb-a004-3b833eabdabf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/SingleStringRequestModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/edu.uci.ics.chrisr6.service.basic-shadow.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/edu.uci.ics.chrisr6.service.basic-shadow.tar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/edu.uci.ics.chrisr6.service.basic-shadow.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/edu.uci.ics.chrisr6.service.basic-shadow.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/edu.uci.ics.chrisr6.service.basic.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/edu.uci.ics.chrisr6.service.basic.tar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/edu.uci.ics.chrisr6.service.basic.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/edu.uci.ics.chrisr6.service.basic.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/edu.uci.ics.chrisr6.service.basic.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/edu.uci.ics.chrisr6.service.basic.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/edu.uci.ics.chrisr6.service.basic.AppTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/edu.uci.ics.chrisr6.service.basic.AppTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/edu.uci.ics.chrisr6.service.basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/edu.uci.ics.chrisr6.service.basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-edu.uci.ics.chrisr6.service.basic.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-edu.uci.ics.chrisr6.service.basic.AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/basicService.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/basicService.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/core/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/core/Users.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/GeneralResponseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/GeneralResponseModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/UsersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/UsersPage.java" afterDir="false" />
@@ -45,17 +31,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/GeneralResponseModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            <state relative-caret-position="438">
+              <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/UsersPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="430">
+              <caret line="86" column="54" lean-forward="true" selection-start-line="86" selection-start-column="54" selection-end-line="86" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/core/Users.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="205" column="77" selection-start-line="205" selection-start-column="77" selection-end-line="205" selection-end-column="77" />
+            <state relative-caret-position="-1832">
+              <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,13 +64,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities/DatabaseOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="90" column="25" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
+            <state relative-caret-position="344">
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -124,10 +115,10 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/SessionResponseModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/SingleFieldRequestModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/SingleStringRequestModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/core/Users.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities/DatabaseOperations.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/GeneralResponseModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/UsersPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/core/Users.java" />
       </list>
     </option>
   </component>
@@ -247,12 +238,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576453035683</updated>
-      <workItem from="1576453037091" duration="16568000" />
+      <workItem from="1576453037091" duration="17684000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16568000" />
+    <option name="totallyTimeSpent" value="17684000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -420,9 +411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-server/2.28/292e93ba8f847121f2e5e3db839baf25e95941ee/jersey-server-2.28-sources.jar!/org/glassfish/jersey/server/ApplicationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -467,10 +455,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities/DatabaseOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="90" column="25" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
+        <state relative-caret-position="344">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -479,25 +470,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/GeneralResponseModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        <state relative-caret-position="438">
+          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/UsersPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/core/Users.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="-1832">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/core/Users.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/UsersPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="205" column="77" selection-start-line="205" selection-start-column="77" selection-end-line="205" selection-end-column="77" />
+        <state relative-caret-position="430">
+          <caret line="86" column="54" lean-forward="true" selection-start-line="86" selection-start-column="54" selection-end-line="86" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

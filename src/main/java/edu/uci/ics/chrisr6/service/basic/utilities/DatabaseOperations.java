@@ -63,6 +63,34 @@ public class DatabaseOperations {
     }
 
     /**
+     * Verify that a given session + email are active.
+     * @param email: email
+     * @param sessionID: session
+     * @return if session valid
+     */
+    public static boolean checkSessionValid(String email, String sessionID) {
+
+        Connection connection = App.getCon();
+
+        try {
+            String query = "SELECT COUNT(*) as c FROM sessions WHERE email = ? AND sessionID = ? AND status = ?";
+            PreparedStatement ps = connection.prepareStatement(query);
+            ps.setString(1, email);
+            ps.setString(2, sessionID);
+            ps.setInt(3, Session.ACTIVE);
+
+            ResultSet rs = ps.executeQuery();
+            rs.next();
+
+            return rs.getInt("c") > 0;
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    /**
      * Invalidates sessions. Will invalidate all for an email if no sessionID is provided.
      * @param email: mandatory
      * @param sessionID: optional

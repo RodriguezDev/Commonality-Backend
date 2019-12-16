@@ -51,6 +51,9 @@ public class GeneralResponseModel {
             case -2:
                 this.message = "JSON Mapping Exception.";
                 break;
+            case -1:
+                this.message = "Not logged in";
+                break;
             case 110:
                 this.message = "User registered successfully.";
                 break;

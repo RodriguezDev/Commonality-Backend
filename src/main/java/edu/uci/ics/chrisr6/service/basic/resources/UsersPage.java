@@ -2,9 +2,9 @@ package edu.uci.ics.chrisr6.service.basic.resources;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import edu.uci.ics.chrisr6.service.basic.core.Users;
-import edu.uci.ics.chrisr6.service.basic.logger.ServiceLogger;
 import edu.uci.ics.chrisr6.service.basic.models.*;
 import edu.uci.ics.chrisr6.service.basic.models.Users.CredentialRequestModel;
+import edu.uci.ics.chrisr6.service.basic.utilities.DatabaseOperations;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.Context;
@@ -57,11 +57,34 @@ public class UsersPage {
         String email = headers.getHeaderString("email");
         String sessionID = headers.getHeaderString("sessionID");
 
+        if (!DatabaseOperations.checkSessionValid(email, sessionID)) return Response.status(Status.UNAUTHORIZED).entity(new GeneralResponseModel(-1)).build();
+
         ObjectMapper mapper = new ObjectMapper();
 
         try {
             SingleStringRequestModel requestModel = mapper.readValue(jsonText, SingleStringRequestModel.class);
             return Users.setHandle(requestModel, email);
+        } catch (IOException e) {
+            GeneralResponseModel responseModel = new GeneralResponseModel(-2);
+            return Response.status(Status.BAD_REQUEST).entity(responseModel).build();
+        }
+    }
+
+    @Path("setName")
+    @POST
+    @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response setName(@Context HttpHeaders headers, String jsonText) {
+        String email = headers.getHeaderString("email");
+        String sessionID = headers.getHeaderString("sessionID");
+
+        if (!DatabaseOperations.checkSessionValid(email, sessionID)) return Response.status(Status.UNAUTHORIZED).entity(new GeneralResponseModel(-1)).build();
+
+        ObjectMapper mapper = new ObjectMapper();
+
+        try {
+            SingleStringRequestModel requestModel = mapper.readValue(jsonText, SingleStringRequestModel.class);
+            return Users.setName(requestModel, email);
         } catch (IOException e) {
             GeneralResponseModel responseModel = new GeneralResponseModel(-2);
             return Response.status(Status.BAD_REQUEST).entity(responseModel).build();

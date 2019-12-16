@@ -12,13 +12,13 @@ import org.apache.commons.codec.binary.Hex;
 
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
-import javax.xml.crypto.Data;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class Users {
+
     /**
      * Register a user if they meet all criteria.
      * @param requestModel: username + password
