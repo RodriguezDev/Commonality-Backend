@@ -1,6 +1,6 @@
 serviceConfig:
   scheme: http://
-  hostName: 0.0.0.0
+  hostName: 192.168.1.195
   port: 3313
   path: /twitter/api
 

@@ -49,6 +49,25 @@ public class UsersPage {
         }
     }
 
+    /**
+     * Checks if a given session + email are still active.
+     * @param headers: email + sessionID
+     * @return session active
+     */
+    @Path("sessionValid")
+    @GET
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response checkSessionValid(@Context HttpHeaders headers) {
+        String email = headers.getHeaderString("email");
+        String sessionID = headers.getHeaderString("sessionID");
+
+        if (!DatabaseOperations.checkSessionValid(email, sessionID)) {
+            return Response.status(Status.UNAUTHORIZED).entity(new GeneralResponseModel(-1)).build();
+        } else {
+            return Response.status(Status.OK).entity(new GeneralResponseModel(130)).build();
+        }
+    }
+
     @Path("setHandle")
     @POST
     @Consumes(MediaType.APPLICATION_JSON)

@@ -44,6 +44,7 @@ public class Users {
 
             // If the email is in use, fail.
             if (DatabaseOperations.emailInUse(requestModel.getEmail())) {
+                ServiceLogger.LOGGER.info("Error registering. Email: " + requestModel.getEmail() + " already in use.");
                 return Response.status(Status.BAD_REQUEST).entity(new GeneralResponseModel(-104)).build();
             }
 
@@ -69,12 +70,14 @@ public class Users {
 
             requestModel.setPassword(null);
 
+            // Return success + a session token
+            String token = DatabaseOperations.createSession(requestModel.getEmail());
+            return Response.status(Status.OK).entity(new SessionResponseModel(110, token)).build();
+
         } catch (SQLException e) {
             e.printStackTrace();
             return Response.status(Status.INTERNAL_SERVER_ERROR).build();
         }
-
-        return Response.status(Status.OK).entity(new GeneralResponseModel(110)).build();
     }
 
     /**
@@ -135,7 +138,9 @@ public class Users {
 
         Connection connection = App.getCon();
 
-        if (requestModel.getField().length() == 0 || requestModel.getField().length() > 50) {
+        // Handle must be between 1 and 50 characters and only have alphanumeric characters.
+        if (requestModel.getField().length() == 0 || requestModel.getField().length() > 50 || !requestModel.getField().matches("[A-Za-z0-9]+")) {
+            ServiceLogger.LOGGER.info("Error: handle does not meet requirements.");
             return Response.status(Status.BAD_REQUEST).entity(new GeneralResponseModel(-107)).build();
         }
 
@@ -149,6 +154,7 @@ public class Users {
 
             if (rs.getInt("c") != 0) {
                 // The handle is taken.
+                ServiceLogger.LOGGER.info("Error: handle already in use.");
                 return Response.status(Status.BAD_REQUEST).entity(new GeneralResponseModel(-108)).build();
             }
 
@@ -160,6 +166,7 @@ public class Users {
 
             statement2.execute();
 
+            ServiceLogger.LOGGER.info("Successfully assigned handle: " + requestModel.getField() + " to " + email);
             return Response.status(Status.OK).entity(new GeneralResponseModel(150)).build();
 
         } catch (SQLException e) {
@@ -178,6 +185,7 @@ public class Users {
         Connection connection = App.getCon();
 
         if (requestModel.getField().length() == 0 || requestModel.getField().length() > 50) {
+            ServiceLogger.LOGGER.info("Error: name length is invalid.");
             return Response.status(Status.BAD_REQUEST).entity(new GeneralResponseModel(-109)).build();
         }
 
@@ -190,6 +198,7 @@ public class Users {
 
             statement2.execute();
 
+            ServiceLogger.LOGGER.info("Successfully changed name to " + requestModel.getField() + " for " + email);
             return Response.status(Status.OK).entity(new GeneralResponseModel(160)).build();
 
         } catch (SQLException e) {
@@ -207,6 +216,7 @@ public class Users {
     public static Response logout(String email, String sessionID) {
         DatabaseOperations.invalidateSessions(email, sessionID);
 
+        ServiceLogger.LOGGER.info("Logged " + email + " out.");
         return Response.status(Status.OK).entity(new GeneralResponseModel(170)).build();
     }
 }

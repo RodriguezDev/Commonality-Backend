@@ -10,7 +10,12 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class DatabaseOperations {
-    // Checks if an email is in use.
+
+    /**
+     * Check if an email is in use.
+     * @param email: to check
+     * @return true, if in use
+     */
     public static boolean emailInUse(String email) {
         try {
             Connection connection = App.getCon();
@@ -66,7 +71,7 @@ public class DatabaseOperations {
      * Verify that a given session + email are active.
      * @param email: email
      * @param sessionID: session
-     * @return if session valid
+     * @return if session active
      */
     public static boolean checkSessionValid(String email, String sessionID) {
 

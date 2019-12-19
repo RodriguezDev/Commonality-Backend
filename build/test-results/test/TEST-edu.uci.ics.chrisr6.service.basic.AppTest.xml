@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="edu.uci.ics.chrisr6.service.basic.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-16T07:46:34" hostname="Chriss-MBP-3" time="0.0">
+<testsuite name="edu.uci.ics.chrisr6.service.basic.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-17T03:16:13" hostname="Chriss-MBP-3" time="0.001">
   <properties/>
-  <testcase name="firstTest" classname="edu.uci.ics.chrisr6.service.basic.AppTest" time="0.0"/>
+  <testcase name="firstTest" classname="edu.uci.ics.chrisr6.service.basic.AppTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

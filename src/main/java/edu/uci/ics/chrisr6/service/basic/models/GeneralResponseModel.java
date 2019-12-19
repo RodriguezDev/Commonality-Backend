@@ -31,13 +31,13 @@ public class GeneralResponseModel {
                 this.message = "No account exists with email.";
                 break;
             case -104:
-                this.message = "Email already in use.";
+                this.message = "Account already exists with email.";
                 break;
             case -103:
-                this.message = "Password does not meet character requirements.";
+                this.message = "Password does not meet character requirements (1 uppercase, 1 lowercase, 1 number, & 1 special character).";
                 break;
             case -102:
-                this.message = "Password has invalid length (cannot be empty/null).";
+                this.message = "Password must be between 8-16 characters.";
                 break;
             case -101:
                 this.message = "Email address has invalid format.";
