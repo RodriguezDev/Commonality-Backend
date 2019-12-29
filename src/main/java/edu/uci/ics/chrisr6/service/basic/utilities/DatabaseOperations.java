@@ -127,4 +127,28 @@ public class DatabaseOperations {
             e.printStackTrace();
         }
     }
+
+    /**
+     * Check if community name is in use.
+     * @param name: to check
+     * @return true, if in use
+     */
+    public static boolean communityNameInUse(String name) {
+        try {
+            Connection connection = App.getCon();
+
+            String query = "SELECT count(*) AS c FROM communities WHERE name = ?";
+            PreparedStatement ps = connection.prepareStatement(query);
+            ps.setString(1, name);
+
+            ResultSet rs = ps.executeQuery();
+            rs.next();
+
+            // Return if the count is > 0.
+            return rs.getInt("c") > 0;
+
+        } catch (SQLException e) {
+            return false;
+        }
+    }
 }

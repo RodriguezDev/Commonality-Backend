@@ -2,6 +2,7 @@ package edu.uci.ics.chrisr6.service.basic.resources;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import edu.uci.ics.chrisr6.service.basic.core.Users;
+import edu.uci.ics.chrisr6.service.basic.logger.ServiceLogger;
 import edu.uci.ics.chrisr6.service.basic.models.*;
 import edu.uci.ics.chrisr6.service.basic.models.Users.CredentialRequestModel;
 import edu.uci.ics.chrisr6.service.basic.utilities.DatabaseOperations;
@@ -64,6 +65,7 @@ public class UsersPage {
         if (!DatabaseOperations.checkSessionValid(email, sessionID)) {
             return Response.status(Status.UNAUTHORIZED).entity(new GeneralResponseModel(-1)).build();
         } else {
+            ServiceLogger.LOGGER.info(email + " has active session " + sessionID);
             return Response.status(Status.OK).entity(new GeneralResponseModel(130)).build();
         }
     }

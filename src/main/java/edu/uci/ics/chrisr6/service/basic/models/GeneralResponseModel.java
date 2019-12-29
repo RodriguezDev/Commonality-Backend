@@ -4,9 +4,9 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class GeneralResponseModel {
     @JsonProperty(required = true)
-    int resultCode;
+    public int resultCode;
     @JsonProperty(required = true)
-    String message;
+    public String message;
 
     public GeneralResponseModel() {
 
