@@ -1,22 +1,24 @@
-[2019/12/28 16:21:09][CONFIG][initLogger]  Logging initialized.
-[2019/12/28 16:21:09][CONFIG][initService]  Starting service...
-[2019/12/28 16:21:09][CONFIG][currentConfigs]  Scheme: http://
-[2019/12/28 16:21:09][CONFIG][currentConfigs]  Hostname: 192.168.1.195
-[2019/12/28 16:21:09][CONFIG][currentConfigs]  Port: 3313
-[2019/12/28 16:21:09][CONFIG][currentConfigs]  Path: /twitter/api
-[2019/12/28 16:21:09][CONFIG][currentConfigs]  Logger output directory: ./logs/
-[2019/12/28 16:21:09][CONFIG][currentConfigs]  Logger output file: basicService.log
-[2019/12/28 16:21:09][CONFIG][currentConfigs]  dbUsername: root
-[2019/12/28 16:21:09][CONFIG][currentConfigs]  dbPassword: 11301997
-[2019/12/28 16:21:09][CONFIG][currentConfigs]  dbHostname: 127.0.0.1
-[2019/12/28 16:21:09][CONFIG][currentConfigs]  dbPort: 3306
-[2019/12/28 16:21:09][CONFIG][currentConfigs]  dbDriver: com.mysql.cj.jdbc.Driver
-[2019/12/28 16:21:09][CONFIG][currentConfigs]  dbName: Twitter
-[2019/12/28 16:21:09][CONFIG][currentConfigs]  dbSettings: ?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST
-[2019/12/28 16:21:09][CONFIG][connectToDatabase]  Connecting to database...
-[2019/12/28 16:21:09][CONFIG][connectToDatabase]  Database URL: jdbc:mysql://127.0.0.1:3306/Twitter?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST
-[2019/12/28 16:21:09][CONFIG][connectToDatabase]  Connected to database: com.mysql.cj.jdbc.ConnectionImpl@5b7a5baa
-[2019/12/28 16:21:09][CONFIG][initHTTPServer]  Initializing HTTP server...
-[2019/12/28 16:21:10][CONFIG][initHTTPServer]  HTTP server started.
-[2019/12/28 16:21:10][CONFIG][initService]  Service initialized.
-[2019/12/28 16:21:14][INFO][createCommunity]  Error creating community: name is already in use.
+[2020/02/19 13:30:41][CONFIG][initLogger]  Logging initialized.
+[2020/02/19 13:30:41][CONFIG][initService]  Starting service...
+[2020/02/19 13:30:41][CONFIG][currentConfigs]  Scheme: http://
+[2020/02/19 13:30:41][CONFIG][currentConfigs]  Hostname: 192.168.86.26
+[2020/02/19 13:30:41][CONFIG][currentConfigs]  Port: 3313
+[2020/02/19 13:30:41][CONFIG][currentConfigs]  Path: /twitter/api
+[2020/02/19 13:30:41][CONFIG][currentConfigs]  Logger output directory: ./logs/
+[2020/02/19 13:30:41][CONFIG][currentConfigs]  Logger output file: basicService.log
+[2020/02/19 13:30:41][CONFIG][currentConfigs]  dbUsername: root
+[2020/02/19 13:30:41][CONFIG][currentConfigs]  dbPassword: 11301997
+[2020/02/19 13:30:41][CONFIG][currentConfigs]  dbHostname: 127.0.0.1
+[2020/02/19 13:30:41][CONFIG][currentConfigs]  dbPort: 3306
+[2020/02/19 13:30:41][CONFIG][currentConfigs]  dbDriver: com.mysql.cj.jdbc.Driver
+[2020/02/19 13:30:41][CONFIG][currentConfigs]  dbName: Twitter
+[2020/02/19 13:30:41][CONFIG][currentConfigs]  dbSettings: ?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST
+[2020/02/19 13:30:41][CONFIG][connectToDatabase]  Connecting to database...
+[2020/02/19 13:30:41][CONFIG][connectToDatabase]  Database URL: jdbc:mysql://127.0.0.1:3306/Twitter?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST
+[2020/02/19 13:30:42][CONFIG][connectToDatabase]  Connected to database: com.mysql.cj.jdbc.ConnectionImpl@5b7a5baa
+[2020/02/19 13:30:42][CONFIG][initHTTPServer]  Initializing HTTP server...
+[2020/02/19 13:30:42][CONFIG][initHTTPServer]  HTTP server started.
+[2020/02/19 13:30:42][CONFIG][initService]  Service initialized.
+[2020/02/19 13:32:49][INFO][checkSessionValid]  chrismail627@gmail.com has active session 6fa6efc3840b1fa96a3e7f8d18cb321cfb5f6982d7cc893cf90de6aea062febd02d5deea68d96ed003080c91b214b6c7f186ba535e1878cdabc8f04fdf2c6e34
+[2020/02/19 13:32:59][INFO][createCommunity]  Successfully created community: lego
+[2020/02/19 13:38:30][INFO][getTopCommunities]  Found communities matching criteria.

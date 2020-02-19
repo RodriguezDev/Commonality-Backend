@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43875032-0027-4bbb-a004-3b833eabdabf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/core/Communities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/Communities/CommunitiesResponseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/Communities/CommunityCreateRequestModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/CommunitiesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/Communities/CommunitiesListResponseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/Communities/CommunityModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -19,10 +17,11 @@
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/edu.uci.ics.chrisr6.service.basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/edu.uci.ics.chrisr6.service.basic.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-edu.uci.ics.chrisr6.service.basic.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-edu.uci.ics.chrisr6.service.basic.AppTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/basicService.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/basicService.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/GeneralResponseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/GeneralResponseModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/UsersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/UsersPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities/DatabaseOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities/DatabaseOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/core/Communities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/core/Communities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/Communities/CommunitiesResponseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/Communities/CommunitiesResponseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/CommunitiesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/CommunitiesPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -45,40 +44,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/GeneralResponseModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-131">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/Communities/CommunitiesResponseModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="510">
+              <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/UsersPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/Communities/CommunitiesListResponseModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/CommunitiesPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="415">
+              <caret line="52" column="73" selection-start-line="52" selection-start-column="73" selection-end-line="52" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,16 +90,16 @@
         <entry file="file://$PROJECT_DIR$/config.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="25" />
+              <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/core/Communities.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="45" column="81" lean-forward="true" selection-start-line="45" selection-start-column="81" selection-end-line="45" selection-end-column="81" />
+            <state relative-caret-position="1139">
+              <caret line="107" selection-start-line="107" selection-end-line="107" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities/DatabaseOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
+            <state relative-caret-position="2205">
+              <caret line="154" selection-start-line="154" selection-end-line="154" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,20 +155,22 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/SessionResponseModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/SingleFieldRequestModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/SingleStringRequestModel.java" />
-        <option value="$PROJECT_DIR$/config.yaml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/core/Users.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/UsersPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/CommunityPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/Communities/ComminityCreateRequestModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/GeneralResponseModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/CommunitiesPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities/DatabaseOperations.java" />
+        <option value="$PROJECT_DIR$/config.yaml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/Communities/CommunityModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/Communities/CommunitiesResponseModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/Communities/CommunitiesListResponseModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/core/Communities.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/CommunitiesPage.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
@@ -191,6 +180,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,15 +222,6 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edu.uci.ics.chrisr6.service.basic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -250,7 +232,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="Users" type="462c0819:PsiDirectoryNode" />
+              <item name="Communities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="edu.uci.ics.chrisr6.service.basic" type="b2602c69:ProjectViewProjectNode" />
@@ -265,8 +247,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -316,18 +296,19 @@
       <option name="presentableId" value="Default" />
       <updated>1576453035683</updated>
       <workItem from="1576453037091" duration="27960000" />
-      <workItem from="1577572857511" duration="4496000" />
+      <workItem from="1577572857511" duration="5500000" />
+      <workItem from="1582143084481" duration="4764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32456000" />
+    <option name="totallyTimeSpent" value="38224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22771673" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23015873" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -465,9 +446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -493,13 +471,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities/DatabaseOperations.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/GeneralResponseModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -510,37 +485,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/Communities/CommunitiesResponseModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/utilities/DatabaseOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/GeneralResponseModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-131">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        <state relative-caret-position="2205">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/UsersPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        <state relative-caret-position="130">
+          <caret line="98" column="8" selection-start-line="98" selection-start-column="8" selection-end-line="99" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/CommunitiesPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/Communities/CommunityModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="300">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
+            <element signature="e#1135#1136#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -555,17 +554,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.yaml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/core/Communities.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="25" />
+        <state relative-caret-position="1139">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/core/Communities.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/Communities/CommunitiesResponseModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="45" column="81" lean-forward="true" selection-start-line="45" selection-start-column="81" selection-end-line="45" selection-end-column="81" />
+        <state relative-caret-position="510">
+          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/models/Communities/CommunitiesListResponseModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uci/ics/chrisr6/service/basic/resources/CommunitiesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="52" column="73" selection-start-line="52" selection-start-column="73" selection-end-line="52" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

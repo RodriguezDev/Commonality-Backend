@@ -9,6 +9,15 @@ public class CommunitiesResponseModel extends GeneralResponseModel {
         this.resultCode = resultCode;
 
         switch (resultCode) {
+            case -205:
+                this.message = "Must sort by ASC or DESC";
+                break;
+            case -204:
+                this.message = "Illegal order by condition";
+                break;
+            case -203:
+                this.message = "Offset must be >= 0";
+                break;
             case -202:
                 this.message = "Community name is taken.";
                 break;
@@ -17,6 +26,12 @@ public class CommunitiesResponseModel extends GeneralResponseModel {
                 break;
             case 200:
                 this.message = "Community created successfully.";
+                break;
+            case 201:
+                this.message = "Communities successfully retrieved.";
+                break;
+            case 202:
+                this.message = "No communities found.";
                 break;
         }
     }

@@ -22,13 +22,36 @@ public class CommunitiesPage {
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
-    public Response createCommunity(String jsonText) {
-        ObjectMapper mapper = new ObjectMapper();
+    public Response createCommunity(@Context HttpHeaders headers, String jsonText) {
 
+        String email = headers.getHeaderString("email");
+        String sessionID = headers.getHeaderString("sessionID");
+
+        if (!DatabaseOperations.checkSessionValid(email, sessionID)) return Response.status(Status.UNAUTHORIZED).entity(new GeneralResponseModel(-1)).build();
+
+        ObjectMapper mapper = new ObjectMapper();
         try {
             CommunityCreateRequestModel requestModel = mapper.readValue(jsonText, CommunityCreateRequestModel.class);
             return Communities.createCommunity(requestModel);
         } catch (IOException e) {
+            GeneralResponseModel responseModel = new GeneralResponseModel(-2);
+            return Response.status(Status.BAD_REQUEST).entity(responseModel).build();
+        }
+    }
+
+    @Path("getTop")
+    @GET
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getTopCommunities(@Context HttpHeaders headers, @QueryParam("offset") int offset, @QueryParam("orderBy") String orderBy, @QueryParam("ascDesc") String ascDesc) {
+
+        String email = headers.getHeaderString("email");
+        String sessionID = headers.getHeaderString("sessionID");
+
+        if (!DatabaseOperations.checkSessionValid(email, sessionID)) return Response.status(Status.UNAUTHORIZED).entity(new GeneralResponseModel(-1)).build();
+
+        try {
+            return Communities.getTopCommunities(offset, orderBy, ascDesc);
+        } catch (Exception e) {
             GeneralResponseModel responseModel = new GeneralResponseModel(-2);
             return Response.status(Status.BAD_REQUEST).entity(responseModel).build();
         }
